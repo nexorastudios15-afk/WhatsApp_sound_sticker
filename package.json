@@ -1,0 +1,29 @@
+{
+  "name": "makesoundsticker",
+  "version": "0.5.5",
+  "private": true,
+  "description": "NEXORA WhatsApp sound sticker bot for Termux with embedded audio patch",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "check": "node --check run.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "malvin-btns": "1.2.0",
+    "pino": "^10.4.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "sticker",
+    "sound-sticker",
+    "termux"
+  ]
+}
